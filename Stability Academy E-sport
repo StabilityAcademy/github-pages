@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stability Academy Esport</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Hero Section -->
+  <section class="text-center py-24 px-6 bg-gradient-to-b from-black to-gray-800">
+    <h1 class="text-5xl font-bold mb-4">Stability Academy Esport</h1>
+    <p class="text-xl mb-6 text-gray-300">Tempat berkembangnya talenta muda dunia esports</p>
+    <a href="#join" class="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-lg text-white font-semibold">Gabung Sekarang</a>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section class="py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Tentang Kami</h2>
+    <p class="max-w-2xl mx-auto text-gray-400">
+      Stability Academy adalah akademi esports yang berfokus pada pengembangan pemain muda berbakat di berbagai game kompetitif. Kami menyediakan pelatihan, bimbingan, dan platform kompetisi.
+    </p>
+  </section>
+
+  <!-- Pemain Unggulan -->
+  <section class="py-16 px-6 bg-gray-800">
+    <h2 class="text-3xl font-bold mb-10 text-center">Pemain Unggulan</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-700 p-6 rounded-lg text-center">
+        <h3 class="text-xl font-bold">Player 1</h3>
+        <p class="text-gray-300">Role: Midlaner</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg text-center">
+        <h3 class="text-xl font-bold">Player 2</h3>
+        <p class="text-gray-300">Role: Sniper</p>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg text-center">
+        <h3 class="text-xl font-bold">Player 3</h3>
+        <p class="text-gray-300">Role: Support</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="join" class="py-20 text-center bg-red-600">
+    <h2 class="text-3xl font-bold mb-4">Ingin Bergabung dengan Stability Academy?</h2>
+    <p class="mb-6 text-white">Isi formulir dan mulai perjalanan esports-mu sekarang juga!</p>
+    <a href="#" class="bg-white text-red-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-200">Daftar Sekarang</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-6 text-gray-400">
+    &copy; 2025 Stability Academy Esport. All rights reserved.
+  </footer>
+
+</body>
+</html>
